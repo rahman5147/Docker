@@ -5,7 +5,7 @@ services:
       ports:
           - "80:80"
       volumes:
-          - ../:/code
+          - ../:/code/public
           # For laravel
           # - ../:/code/laravel
           - ./site.conf:/etc/nginx/conf.d/default.conf
