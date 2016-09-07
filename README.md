@@ -1,4 +1,7 @@
-# Docker-Lamp-Stack
+# Docker Lamp Stack
+
+![](https://www.docker.com/sites/default/files/legal/small_v.png)
+
 Docker compose of container to build:
 - Nginx (latest)
 - Mysql
