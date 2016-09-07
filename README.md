@@ -5,6 +5,9 @@ Docker compose of container to build:
 - PHP
 
 Place this repo folder inside web source code
+```bash
+git submodule add https://github.com/rahman5147/Docker.git
+```
 
 Run container:
 ```bash
