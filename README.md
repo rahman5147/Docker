@@ -1,6 +1,6 @@
 # Docker Lamp Stack
 
-![](https://www.docker.com/sites/default/files/legal/small_v.png)
+![Docker](https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_(container_engine)_logo.png)
 
 Docker compose of container to build:
 - Nginx (latest)
