@@ -6,7 +6,7 @@ Docker compose of container to build:
 
 Place this repo folder inside web source code
 ```bash
-git submodule add https://github.com/rahman5147/Docker.git
+git submodule add https://github.com/rahman5147/docker.git
 ```
 
 Run container:
