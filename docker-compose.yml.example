@@ -6,8 +6,6 @@ services:
           - "80:80"
       volumes:
           - ../:/code/public
-          # For laravel
-          # - ../:/code/laravel
           - ./site.conf:/etc/nginx/conf.d/default.conf
           - ./logs/nginx/:/var/log/nginx
       links:
