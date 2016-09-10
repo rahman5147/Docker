@@ -2,7 +2,7 @@ server {
 	index index.php index.html;
     listen  80;
 
-    root /code/public;
+    root ${NGINX_ROOT};
 
     location / {
         try_files $uri $uri/ /index.php$is_args$args;
