@@ -9,7 +9,7 @@ Docker compose of container to build:
 
 Place this repo folder inside web source code
 ```bash
-cd <web src directory>
+cd <src_directory>
 git submodule add https://github.com/rahman5147/docker.git
 cd docker
 ```
@@ -19,6 +19,15 @@ Rename file `docker-compose.yml.example` to `docker-compose.yml` & change necess
 Run container:
 ```bash
 docker-compose up -d nginx mysql phpmyadmin
+```
+
+Stop & Delete Container:
+```bash
+docker-compose down
+```
+If changed in Dockerfile, need to re-build docker image:
+```bash
+docker-compose build
 ```
 
 Open browser goto [192.168.99.100](192.168.99.100)
