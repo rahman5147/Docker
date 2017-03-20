@@ -21,6 +21,11 @@ Run container:
 docker-compose up -d nginx mysql phpmyadmin
 ```
 
+See logs
+```bash
+docker logs docker_php_1
+```
+
 Stop & Delete Container:
 ```bash
 docker-compose down
