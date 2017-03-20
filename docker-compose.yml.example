@@ -34,8 +34,8 @@ services:
           - mysql
   mysql:
       image: mysql:latest
-      # ports:
-          # - "3306:3306"
+      ports:
+          - "3306:3306"
       volumes_from:
         - volume_data
       environment:
