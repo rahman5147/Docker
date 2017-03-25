@@ -53,7 +53,7 @@ services:
           MYSQL_PASSWORD: root
           MYSQL_ROOT_PASSWORD: root
           SESSION_TIMEOUT: 86400
-          UPLOAD_SIZE=1G
+          UPLOAD_SIZE: 1G
       ports:
           - 9091:80
       links:
